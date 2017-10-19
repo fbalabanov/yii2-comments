@@ -40,7 +40,7 @@ $Widget = $this->context;
             ->textarea($options)->label(false);
 
         ?>
-        <div class="actions">
+        <div class="actions pull-right">
             <?php
             echo Html::submitButton(\Yii::t('app', 'Comment'), [
                 'class' => 'btn btn-primary',
