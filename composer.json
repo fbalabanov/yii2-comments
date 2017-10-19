@@ -1,0 +1,40 @@
+{
+  "name": "fbalabanov/yii2-comments",
+  "description": "Comments module for Yii2",
+  "keywords": [
+    "yii",
+    "comment",
+    "widget",
+    "module"
+  ],
+  "type": "yii2-extension",
+  "license": "MIT",
+  "minimum-stability": "stable",
+  "support": {
+    "issues": "https://github.com/fbalabanov/yii2-comments/issues",
+    "source": "https://github.com/fbalabanov/yii2-comments"
+  },
+  "authors": [
+    {
+      "name": "Felix Balabanov",
+      "email": "fbalabanov@aol.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+
+    "yiisoft/yii2": "2.0.*",
+    "rmrevin/yii2-fontawesome": "~2.10"
+  },
+  "autoload": {
+    "psr-4": {
+      "fbalabanov\\yii\\module\\Comments\\": ""
+    }
+  },
+  "extra": {
+    "asset-installer-paths": {
+      "npm-asset-library": "vendor/npm",
+      "bower-asset-library": "vendor/bower"
+    }
+  }
+}
