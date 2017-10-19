@@ -6,7 +6,7 @@
  * @var yii\data\ActiveDataProvider $CommentsDataProvider
  */
 
-use fbalabanov\yii\fontawesome\FA;
+use rmrevin\yii\fontawesome\FA;
 use fbalabanov\yii\module\Comments;
 use yii\helpers\Html;
 use yii\helpers\Json;

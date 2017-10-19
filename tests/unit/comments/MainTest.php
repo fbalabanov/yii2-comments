@@ -9,7 +9,7 @@ use fbalabanov\yii\module\Comments;
 
 /**
  * Class MainTest
- * @package fbalabanov\yii\fontawesome\tests\unit\fontawesome
+ * @package rmrevin\yii\fontawesome\tests\unit\fontawesome
  */
 class MainTest extends Comments\tests\unit\TestCase
 {
