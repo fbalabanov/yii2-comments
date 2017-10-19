@@ -71,7 +71,7 @@ class Comment extends \yii\db\ActiveRecord
 			'parent_id' => \Yii::t('app', 'Parent ID'),
             'entity' => \Yii::t('app', 'Entity'),
             'from' => \Yii::t('app', 'Comment author'),
-            'text' => \Yii::t('app', 'Text'),
+            'text' => \Yii::t('app', 'Comment'),
             'created_by' => \Yii::t('app', 'Created by'),
             'updated_by' => \Yii::t('app', 'Updated by'),
             'created_at' => \Yii::t('app', 'Created at'),

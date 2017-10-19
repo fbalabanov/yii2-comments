@@ -17,7 +17,7 @@ $Widget = $this->context;
 
 <a name="commentcreateform"></a>
 <div class="row comment-form">
-    <div class="col-xs-12 col-sm-9 col-md-6 col-lg-4">
+    <div class="col-xs-12">
         <?php
         /** @var ActiveForm $form */
         $form = ActiveForm::begin();
@@ -37,7 +37,7 @@ $Widget = $this->context;
         }
 
         echo $form->field($CommentCreateForm, 'text')
-            ->textarea($options);
+            ->textarea($options)->label(false);
 
         ?>
         <div class="actions">
